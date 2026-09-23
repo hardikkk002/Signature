@@ -1,0 +1,1 @@
+export default function DistanceMeter({distance,threshold}) { const width=Math.min(100, distance/Math.max(threshold*2,1e-7)*100); return <div className="meter-wrap"><div className="meter"><i style={{left:`${width}%`}}/><b style={{left:'50%'}}>Threshold</b></div><div className="meter-labels"><span>0 · more similar</span><span>higher distance · less similar</span></div></div>; }

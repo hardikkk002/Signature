@@ -1,0 +1,21 @@
+{
+  "model_name": "Siamese Signature Verification CNN",
+  "input_size": [
+    224,
+    224,
+    1
+  ],
+  "embedding_size": 128,
+  "distance_metric": "euclidean",
+  "threshold": 0.14539657533168793,
+  "genuine_label": 1,
+  "forged_label": 0,
+  "preprocessing": {
+    "grayscale": true,
+    "resize": [
+      224,
+      224
+    ],
+    "normalize": true
+  }
+}

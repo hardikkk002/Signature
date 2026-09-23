@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+.env
+training/results/
+*.log
+
+# Raw signature datasets are kept locally and are too large for GitHub.
+archive/
+BHSig260-Bengali/
+BHSig260-Hindi/
+CEDAR/
